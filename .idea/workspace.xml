@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="920d0cbc-1d2e-48f2-931a-7b4751ad1146" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general_Wilton.html" beforeDir="false" afterPath="$PROJECT_DIR$/general_Wilton.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styleWilton.css" beforeDir="false" afterPath="$PROJECT_DIR$/styleWilton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheetMyriadPro.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheetMyriadPro.css" afterDir="false" />
-    </list>
+    <list default="true" id="920d0cbc-1d2e-48f2-931a-7b4751ad1146" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603467389618</updated>
       <workItem from="1603467391036" duration="14924000" />
-      <workItem from="1603529060987" duration="25345000" />
+      <workItem from="1603529060987" duration="25731000" />
     </task>
     <servers />
   </component>
