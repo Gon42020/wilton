@@ -5,9 +5,9 @@
     <title>Wilton store</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="styleWilton.css">
-    <link rel="stylesheet" href="BrandonGrotesque/stylesheet.css">
-    <link rel="stylesheet" href="stylesheetMyriadPro.css">
+    <link rel="stylesheet" href="style/styleWilton.css">
+    <link rel="stylesheet" href="style/fonts/BrandonGrotesque/stylesheet.css">
+    <link rel="stylesheet" href="style/fonts/MyriadPro/stylesheetMyriadPro.css">
 
 </head>
 <body>
@@ -54,7 +54,7 @@
 
     <nav class=" navbar navbar-expand-lg navbar-light bg-white ">
         <div class="container">
-        <a class="navbar-brand" href="#" style="margin: 0px; "><img src="images/Wilton_logo.png"</img></a>
+        <a class="navbar-brand" href="#" "><img src="images/Wilton_logo.png"</img></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -93,60 +93,94 @@
         </div>
     </div>
 </header>
+
 <div class="container-fluit" style="height: 60px;"></div>
+
 <div class="container">
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="images/photo_one_carousel.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-mycaption d-none d-md-block ">
-                <p class="makeEasy">We make it easy</p>
-                <p class="makeAmaz">You make it <br></br> amazing</p>
-                <button class="btn" id="viewIdeas" type="submit">view ideas</button>
-            </div>
+    <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselCaptions" data-slide-to="3"></li>
+            </ol>
+        <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/photo_one_carousel.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-mycaption d-none d-md-block ">
+                        <p class="makeEasy">We make it easy</p>
+                        <p class="makeAmaz">You make it <br>
+                        </br> amazing</p>
+                        <button class="btn" id="viewIdeas" type="submit">view ideas</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/photo_one_carousel.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/photo_one_carousel.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <h1>You make it amazing</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/photo_one_carousel.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
+                    <img src="images/left_arrow.jpg" style="transform: translateX(-60px);">
+                    <span  aria-hidden="true"> </span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselCaptions" role="button" data-slide="next">
+                    <img src="images/right_arrow_.jpg" style="transform: translateX(60px);">
+                    <span  aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
         </div>
-        <div class="carousel-item">
-            <img src="images/photo_one_carousel.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="images/photo_one_carousel.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <h1>You make it amazing</h1>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="images/photo_one_carousel.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-        <img src="images/left_arrow.jpg" style="transform: translateX(-60px);">
-        <span  aria-hidden="true"> </span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-        <img src="images/right_arrow_.jpg" style="transform: translateX(60px);">
-        <span  aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
 </div>
-    </a>
+
+<div class="container-fluit" style="min-height: 60px;"></div>
+
+    <div class="container" >
+        <div class="container row  pg-none row-mg-none color-br ">
+            <div class="styleProjectWeak col-12 row row-mg-none pg-none ">
+                <div class="col-4 nav container pg-none "></div>
+                <div class="col-4 nav container pg-none justify-content-center ">
+                    <a class=" fontStyleProjectWeak" href="#">Project of the weak</a>
+                </div>
+                <div class="col-4 nav container  justify-content-end ">
+                    <a class="fontStyleProjectWeakAll " href="#">View all projects <img src="images/arrow_for_pr_view.png"> </a>
+                </div>
+            </div>
+            <div class=" col-6  pg-none  ">
+                <a  href="#"><img class="container pg-none" src="images/cake_area.png"> </a>
+            </div>
+            <div class="col-6 pg-none row row-mg-none ">
+                <div class="col-6 container pg-none">
+                    <a class='' href="#">
+                        <img class="container pg54" src="images/tabls.png">
+                        <div class="myPriceTabs ">Golden Yellow Icing Color, <del>$3.79</del> <br><em id="sales">$2.50</em></div>
+                    </a>
+                </div>
+                <div class="col-6 container pg-none"><a href="#"><img class="container pg41 " src="images/for_cake.png"></a></div>
+                <div class="col-6 container pg-none"><a href="#"><img class="container pgcakeWilton" src="images/cake-wilton.png"></a></div>
+                <div class="col-6 container pg-none"><a href="#"><img class="container pg41" src="images/muffin_pan.png"></a></div>
+            </div>
+        </div>
     </div>
-</div>
-<div class="container-fluit" style="height: 60px;"></div>
+
+
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
