@@ -309,15 +309,24 @@ text-align: left;
     color: white;
     text-transform: uppercase;
     font-family: "Brandon Grotesque",serif;
-    font-weight: bold;
     font-size: 14px;
+}
+.button-view-ideas{
+    background-color: #5d2598;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Brandon Grotesque",serif;
+    font-size: 10px;
+    /*width: 87px;*/
+    /*height: 25px;*/
+    border-radius: 6px;
+    padding: 4px 15px;
 }
 .button-wilton-school{
     background-color: #5d2598;
     color: white;
     text-transform: uppercase;
     font-family: "Brandon Grotesque",serif;
-    font-weight: bold;
     font-size: 12px;
 }
 .position-btn{
@@ -330,16 +339,20 @@ text-align: left;
 .mg-none{
     margin:0;
 }
-#pg-center-button{
+.pg-center-button{
     padding:38px 30px 38px 10px;
 }
-
+.center-button-ideas{
+    padding: 27px 0 23px 0;
+}
 .style-shops-btn{
     font-family: "Yanone Kaffeesatz", serif;
     font-size: 30px;
     text-align: center;
     color:#fff;
     padding:16.5px 0 16px 0;
+    /*font-weight: lighter;*/
+
 }
 .bakware-background{
     background:#61279e;
@@ -453,4 +466,51 @@ margin-right:1px ;
 .mg-page{
     margin:0 135px;
 }
+    .place-fantasy{
+        position: absolute;
+        background-color: rgba(255,255,255,0.5);
+        top: 89.8%;
+    }
+    .place-candy{
+        position: absolute;
+        background-color: rgba(255,255,255,0.5);
+        top: 79%;
+    }
+    .place-cookies{
+        position: absolute;
+        background-color: rgba(255,255,255,0.5);
+        top: 79%;
+    }
+    .place-trending{
+        position: absolute;
+        top: 79%;
+    }
+    .place-play-btn{
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+    }
+.style-font-fantasy{
+    font-family: "Brandon Grotesque",serif;
+    font-size: 30px;
+    color:#4b4b4b;
+    text-transform: uppercase;
+}
+
+.style-font-motherday-first{
+    font-family: "Brandon Grotesque",serif;
+    font-size:30px;
+    color:#FFF;
+    text-transform: uppercase;
+}
+    .style-font-motherday-second{
+        font-family: "Yanone Kaffeesatz",serif;
+        font-weight: lighter;
+        font-size:30px;
+        color: #FFF;
+    }
+    .transform-icon{
+        transform: translateY(-2px);
+    }
 }

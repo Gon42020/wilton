@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="920d0cbc-1d2e-48f2-931a-7b4751ad1146" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Shell-Weave-Fantasy-Flower-Cake-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/candy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cookies.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/hydrangea.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ro-mothers-day.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Project_Wilton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project_Wilton.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/video.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/general_Wilton.html" beforeDir="false" afterPath="$PROJECT_DIR$/general_Wilton.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styleWilton.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleWilton.css" afterDir="false" />
@@ -31,8 +25,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jHiOx7rNmG9gZ8zGAsWBhdHjqv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -81,7 +78,7 @@
       <workItem from="1604148961347" duration="8020000" />
       <workItem from="1604169688178" duration="8950000" />
       <workItem from="1604220883437" duration="7009000" />
-      <workItem from="1604246555580" duration="1361000" />
+      <workItem from="1604246555580" duration="10073000" />
     </task>
     <servers />
   </component>
@@ -100,5 +97,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
