@@ -1,30 +1,30 @@
 /*.test{*/
 /*    border:1px solid red;*/
 /*}*/
-@media (max-width: 700px){
-    .visible-hide{
-        visibility: hidden;
+
+
+
+    .container {
+        max-width: 1200px;
     }
 
-}
-
-@media (min-width: 500px){
-    .container{
-        max-width: 1170px;
-
-    }
-
-body {
+html, body {
 line-height: 1.75em;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden ;
+    width: 100%;
+    height: 100%;
 }
-.color-fon{
+.color-fon {
     background: #f5f5f5;
 
-
 }
+
 .family-font-support {
     font-size: 12px;
     font-family:"Brandon Grotesque",serif;
+    font-weight: bold;
 
     color: rgb(150, 150, 150);
     text-transform: uppercase;
@@ -36,42 +36,43 @@ line-height: 1.75em;
     color: #4b4b4b;
     text-transform: uppercase;
     text-align: center;
+    font-weight: bold;
     padding:0;
     margin: 0;
 }
 
-#recipes{
-    min-width: 150px;
-    padding-left: 10px;
+.link-recipes{
+    /*min-width: 150px;*/
+
+    width: 178px;
 }
-#decor{
-    min-width: 270px;
-    padding-right: 5px;
-    padding-left: 5px;
+.link-decor{
+/*    !*min-width: 270px;*!*/
+/*    padding:0 28px 0 31px;*/
+/*    padding: 0;*/
+    width: 305px;
 }
-#education{
-    min-width: 190px;
-    padding-right: 5px;
-    padding-left: 5px;
+.link-education{
+    /*padding: 0 26px 0 30px;*/
+/*    padding: 0;*/
+    width: 205px;
 }
-#shop{
-    min-width: 80px;
-    padding-left: 15px;
+.link-shop{
+/*    !*min-width: 80px;*!*/
+/*    padding:0 46px 0 24px;*/
+/*    padding: 0;*/
+    width: 140px;
 
 }
 #searchAtr {
-    position: absolute;
+    /*position: absolute;*/
     background-color: #5d2598;
     padding:0;
     width: 28px;
     height: 28px;
-    transform: translate(250px,0);
-
-
+    /*transform: translate(250px,0);*/
 }
-
 .searchAtr{
-    width:auto;
     border: none;
     border-radius: 5px;
     font-size: 10px;
@@ -79,6 +80,14 @@ line-height: 1.75em;
     font-weight: bold;
     color: rgb(150, 150, 150);
     text-transform: uppercase;
+    /*padding:0 100px 0 10px;*/
+    width: 205px;
+    /*min-width: 70px;*/
+    /*max-width: 200px;*/
+    margin:0;
+    padding: 0;
+    outline: none;
+    min-height: 33px;
 
 }
 .searchForm{
@@ -86,16 +95,21 @@ line-height: 1.75em;
     border-color: rgb(204, 204, 204);
     border-style: solid;
     border-radius: 5px;
-    transform: translateY(-1px);
-    padding:0 170px 0 10px;
+    transform: translateY(-2px);
+    /*padding:0 40px 0 10px;*/
     margin:0;
     outline: none;
     max-height: 35px;
+    /*min-width: 100px;*/
+    max-width: 235px;
+
 }
 .promomsg{
     background: #f5f5f5;
     border-top:1px solid rgba(229,229,229,0.5);
     border-bottom:1px solid rgba(229,229,229,0.5);
+    padding: 2px 0;
+    margin: 0 0 60px 0;
 }
 
 .promoLink{
@@ -103,12 +117,14 @@ line-height: 1.75em;
     font-family:"Brandon Grotesque",serif;
     color: rgb(225, 53, 154);
     text-transform: uppercase;
+    font-weight: bold;
 }
 #promoP{
     color: #4b4b4b;
     font-size: 16px;
     text-align: center;
     font-family:"Brandon Grotesque",serif;
+    font-weight: bold;
 }
 .for-McKinley{
     font-size: 20px;
@@ -178,15 +194,19 @@ text-align: left;
     text-align: center;
 }
 .myPrice{
-    position: absolute;
+    /*position: absolute;*/
     /*position: relative;*/
-    left: 20%;
+    /*left: 20%;*/
     /*bottom: %;*/
     color: #4b4b4b;
     text-align: left;
     font-size: 18px;
     font-family: "Yanone Kaffeesatz", serif;
     /*width: 200px;*/
+}
+.center-text-shop-item{
+    padding:0 0 0 50px;
+    /*margin:0 10px;*/
 }
 .myPrice-muffin-pan{
     position: absolute;
@@ -207,10 +227,10 @@ text-align: left;
     font-style: normal;
     font-family: "Brandon Grotesque",serif;
     font-size: 16px;
+    font-weight: bold;
 
 }
- .color-br
- {
+ .color-br {
     border:1px solid #ededed;
  }
 .row-mg-none{
@@ -230,6 +250,10 @@ text-align: left;
      padding-top:27px;
      padding-bottom: 27px;
      text-align: left;
+ }
+ .style-project-week-block{
+     display: flex;
+     justify-content: right;
 
  }
 .fontStyleProjectWeakAll{
@@ -260,24 +284,25 @@ text-align: left;
     color: black;
     font-family: "Brandon Grotesque",serif;
     font-style: normal;
+    font-weight: bold;
     font-size: 16px;
 }
 
 .style-block-tabls{
-    padding:54px 54px 0;
+    padding:43px 78px 12px 48px;
 
 }
 .style-price-bags{
-    padding:28px 41px 0 41px ;
+    padding:12px 71px 15px 31px ;
 }
 .style-price-muffinPun{
-    padding:30px 41px 0 41px;
-    margin-top:50px;
+    padding:40px 53px 9px 53px;
+
 }
 
 .style-cake-wilton{
-    padding:29.65px 70px 0 70px;
-    margin-top:50px;
+    padding:55px 87px 15px 87px;
+
 }
 .placeDaff{
     position: absolute;
@@ -339,6 +364,7 @@ text-align: left;
 .mg-none{
     margin:0;
 }
+
 .pg-center-button{
     padding:38px 30px 38px 10px;
 }
@@ -350,7 +376,7 @@ text-align: left;
     font-size: 30px;
     text-align: center;
     color:#fff;
-    padding:16.5px 0 16px 0;
+    padding:16.5px 0 16.5px 0;
     /*font-weight: lighter;*/
 
 }
@@ -367,8 +393,7 @@ text-align: left;
 /*    margin:0 15px;*/
 /*}*/
 .block-center{
-    margin-left: auto;
-    margin-right: auto;
+   margin: 0 auto;
 }
 .mail-submit-background{
     background:#f5f5f5;
@@ -512,5 +537,45 @@ margin-right:1px ;
     }
     .transform-icon{
         transform: translateY(-2px);
+    }
+
+.style-block-project-of-week{
+    /*display: inline-block;*/
+    /*justify-content: right;*/
+}
+@media screen and (max-width: 1200px){
+    /*.adaptiv-input-search{*/
+    /*    max-width: 150px;*/
+    /*}*/
+    .adaptiv-link-width{
+        width: 99%;
+    }
+
+
+}
+@media screen and (max-width: 1140px) {
+
+    .adaptiv-link-width{
+        width: 98%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .adaptiv-input-search{
+        max-width:110px ;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .adaptiv-input-search{
+        max-width:100px ;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .adaptiv-input-search{
+        max-width:90px ;
+    }
+}
+@media screen and (max-width: 990px) {
+    .adaptiv-input-search{
+        min-width:200px ;
     }
 }

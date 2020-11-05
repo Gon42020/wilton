@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="920d0cbc-1d2e-48f2-931a-7b4751ad1146" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/video.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/general_Wilton.html" beforeDir="false" afterPath="$PROJECT_DIR$/general_Wilton.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styleWilton.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleWilton.css" afterDir="false" />
@@ -79,6 +78,8 @@
       <workItem from="1604169688178" duration="8950000" />
       <workItem from="1604220883437" duration="7009000" />
       <workItem from="1604246555580" duration="10073000" />
+      <workItem from="1604401200471" duration="9913000" />
+      <workItem from="1604486291731" duration="11434000" />
     </task>
     <servers />
   </component>
