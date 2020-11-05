@@ -250,10 +250,13 @@ text-align: left;
      padding-top:27px;
      padding-bottom: 27px;
      text-align: left;
+     /*position: absolute;*/
+     /*left: 55%;*/
+
  }
  .style-project-week-block{
      display: flex;
-     justify-content: right;
+     /*justify-content: right;*/
 
  }
 .fontStyleProjectWeakAll{
@@ -550,8 +553,26 @@ margin-right:1px ;
     .adaptiv-link-width{
         width: 99%;
     }
+    .adaptiv-block-project-week{
+        width: 600px;
 
 
+    }
+    .adaptiv-block-project-week-items{
+        display: block;
+    width: 600px;
+    }
+
+}
+@media screen and (max-width: 610px){
+    .adaptiv-block-project-week{
+        width: 500px;
+    }
+    .adaptiv-block-project-week-items{
+
+        display: block;
+        width: 500px;
+    }
 }
 @media screen and (max-width: 1140px) {
 
